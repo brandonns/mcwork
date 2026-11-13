@@ -11,7 +11,8 @@ You will receive a Tailscale share invite by email.
 
 1. Install [Tailscale](https://tailscale.com/download) and sign in (a free personal account is fine).
 2. Accept the invite. A machine named **lilith** appears in your Tailscale app.
-3. Note its address (starts with `100.`). That is the server address.
+
+The server address is **`mc.barndoors.cc`**. It only connects while Tailscale is running.
 
 ### 2. Set up the pack in Prism Launcher
 1. Install [Prism Launcher](https://prismlauncher.org/) and sign in with your Microsoft account.
@@ -28,11 +29,12 @@ You will receive a Tailscale share invite by email.
    fetch what changed.
 
 ### 3. Connect
-**Multiplayer** → **Add Server** → address `<lilith's 100.x address>:25565`.
+**Multiplayer** → **Add Server** → Server Address: **`mc.barndoors.cc`** (no port needed).
 You need to be on the whitelist. Send your Minecraft username to the server owner.
 
-**Web map:** `http://<lilith's 100.x address>:8100` (while Tailscale is connected).
+**Web map:** [http://mc.barndoors.cc:8100](http://mc.barndoors.cc:8100) (while Tailscale is connected).
 
 ## Troubleshooting
 - **"Mod mismatch" or missing mods:** close the game and launch again so the updater runs.
-- **Cannot connect:** make sure Tailscale is running and shows lilith as connected.
+- **Cannot connect / "Unknown host":** make sure Tailscale is running and shows lilith as connected.
+  `mc.barndoors.cc` points at lilith's Tailscale address, so it does not work with Tailscale off.
