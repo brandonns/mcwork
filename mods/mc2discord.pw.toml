@@ -1,0 +1,13 @@
+name = "Mc2Discord"
+filename = "mc2discord-neoforge-1.21.1-4.4.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Cfbcv7uF/versions/oBfAabqN/mc2discord-neoforge-1.21.1-4.4.0.jar"
+hash-format = "sha512"
+hash = "9230a71aa092798990f27ad2822bae3d83daadbc623323caf6f4ff7b18babb8f619d47b59ec23a5c775a13f82b052cdca34dd951d33507b0af59d7a05ebe8d29"
+
+[update]
+[update.modrinth]
+mod-id = "Cfbcv7uF"
+version = "oBfAabqN"

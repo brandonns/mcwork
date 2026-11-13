@@ -1,0 +1,13 @@
+name = "mcwork"
+author = "brandonns"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "dedab4fed0800510ae8003e1e85c9d5ec1e46df0588b78e0311a42d3cfbfda10"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.266"
