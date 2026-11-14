@@ -63,4 +63,3 @@ setblock -4 ~1 -1 poppy
 setblock -4 ~1 1 cornflower
 setblock 4 ~1 -1 dandelion
 setblock 4 ~1 1 allium
-setblock 0 ~1 5 spruce_sign[rotation=8]{front_text:{messages:['""','"Welcome to"','"mcwork"','""']}}

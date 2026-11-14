@@ -2,7 +2,8 @@
 # Core x13..24, z-12..-6 is filled solid (seals caves and lava), then carved:
 #   up:     bubble column x19 z-9, soul sand at y-59, boards through a door at every tier, exits at the top
 #   ladder: x17 z-7 on the pillar face, full height
-#   down:   tiered chutes alternating A (x15 z-9) and B (x22 z-9), each landing in a recessed water pool
+#   down:   tiered chutes, each landing in a recessed water pool: surface->40 from the north nook (x17 z-11),
+#           then alternating B (x22 z-9) and A (x15 z-9)
 fill 13 -59 -12 24 0 -6 deepslate
 fill 13 1 -12 24 ~-1 -6 stone
 # Mine house floor: close the pavilion's pit, solid ladder backing.
@@ -23,19 +24,14 @@ setblock 18 ~1 -9 spruce_door[facing=west,half=lower,open=true,hinge=left]
 setblock 18 ~2 -9 spruce_door[facing=west,half=upper,open=true,hinge=left]
 # Ladder.
 fill 17 -58 -7 17 ~ -7 ladder[facing=south]
-# Down chutes: surface->40 (A), 40->16 (B), 16->-16 (A), -16->-58 (B).
-fill 15 44 -9 15 ~ -9 air
+# Down chutes: surface->40 (north nook), 40->16 (B), 16->-16 (A), -16->-58 (B).
+fill 17 44 -11 17 ~ -11 air
 fill 22 20 -9 22 39 -9 air
 fill 15 -12 -9 15 15 -9 air
 fill 22 -54 -9 22 -17 -9 air
 # Landing pools, one block below the floor surface so they cannot spill.
-setblock 15 39 -9 water
+setblock 17 39 -11 water
 setblock 22 15 -9 water
 setblock 15 -17 -9 water
 execute unless block 22 -60 -9 bedrock run setblock 22 -60 -9 deepslate_bricks
 setblock 22 -59 -9 water
-# Signs.
-setblock 16 ~1 -10 spruce_sign[rotation=0]{front_text:{has_glowing_text:1b,color:"yellow",messages:['"THE MINE"','"Hole: drop down"','"Door: ride up"','""']}}
-setblock 22 40 -10 spruce_sign[rotation=0]{front_text:{messages:['""','"Drop to"','"y = 16"','""']}}
-setblock 15 16 -10 spruce_sign[rotation=0]{front_text:{messages:['""','"Drop to"','"y = -16"','""']}}
-setblock 22 -16 -10 spruce_sign[rotation=0]{front_text:{messages:['""','"Drop to"','"bedrock"','""']}}

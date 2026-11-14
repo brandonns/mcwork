@@ -9,7 +9,6 @@ $fill 23 $(l) -3 23 $(t) -3 spruce_log
 $fill 16 $(l) -10 20 $(t) -8 stone_bricks
 $setblock 19 $(l) -8 spruce_door[facing=north,half=lower,open=true,hinge=left]
 $setblock 19 $(u) -8 spruce_door[facing=north,half=upper,open=true,hinge=left]
-$setblock 16 $(u) -7 spruce_wall_sign[facing=south]{front_text:{has_glowing_text:1b,messages:['""','"y = $(l)"','"Door: up"','""']}}
 $setblock 13 $(t) -13 lantern[hanging=true]
 $setblock 21 $(t) -13 lantern[hanging=true]
 $setblock 13 $(t) -5 lantern[hanging=true]

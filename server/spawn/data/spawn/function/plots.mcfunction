@@ -10,7 +10,6 @@ execute positioned -54 0 -3 positioned over motion_blocking_no_leaves run fill ~
 execute positioned -54 0 -3 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
 execute positioned -31 0 -3 positioned over motion_blocking_no_leaves run fill ~ ~ ~ ~ ~1 ~ spruce_fence
 execute positioned -31 0 -3 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
-execute positioned -32 0 -4 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ spruce_sign[rotation=0]{front_text:{messages:['"Plot 1"','"unclaimed"','""','"edit to claim"']}}
 # Plot 2: x -54..-31, z 3..26
 fill -54 ~-3 3 -31 ~30 26 air replace #minecraft:logs
 fill -54 ~-3 3 -31 ~30 26 air replace #minecraft:leaves
@@ -22,7 +21,6 @@ execute positioned -54 0 26 positioned over motion_blocking_no_leaves run fill ~
 execute positioned -54 0 26 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
 execute positioned -31 0 26 positioned over motion_blocking_no_leaves run fill ~ ~ ~ ~ ~1 ~ spruce_fence
 execute positioned -31 0 26 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
-execute positioned -32 0 4 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ spruce_sign[rotation=0]{front_text:{messages:['"Plot 2"','"unclaimed"','""','"edit to claim"']}}
 # Plot 3: x 31..54, z -26..-3
 fill 31 ~-3 -26 54 ~30 -3 air replace #minecraft:logs
 fill 31 ~-3 -26 54 ~30 -3 air replace #minecraft:leaves
@@ -34,7 +32,6 @@ execute positioned 31 0 -3 positioned over motion_blocking_no_leaves run fill ~ 
 execute positioned 31 0 -3 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
 execute positioned 54 0 -3 positioned over motion_blocking_no_leaves run fill ~ ~ ~ ~ ~1 ~ spruce_fence
 execute positioned 54 0 -3 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
-execute positioned 32 0 -4 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ spruce_sign[rotation=0]{front_text:{messages:['"Plot 3"','"unclaimed"','""','"edit to claim"']}}
 # Plot 4: x 31..54, z 3..26
 fill 31 ~-3 3 54 ~30 26 air replace #minecraft:logs
 fill 31 ~-3 3 54 ~30 26 air replace #minecraft:leaves
@@ -46,7 +43,6 @@ execute positioned 31 0 26 positioned over motion_blocking_no_leaves run fill ~ 
 execute positioned 31 0 26 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
 execute positioned 54 0 26 positioned over motion_blocking_no_leaves run fill ~ ~ ~ ~ ~1 ~ spruce_fence
 execute positioned 54 0 26 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
-execute positioned 32 0 4 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ spruce_sign[rotation=0]{front_text:{messages:['"Plot 4"','"unclaimed"','""','"edit to claim"']}}
 # Plot 5: x -26..-3, z 31..54
 fill -26 ~-3 31 -3 ~30 54 air replace #minecraft:logs
 fill -26 ~-3 31 -3 ~30 54 air replace #minecraft:leaves
@@ -58,7 +54,6 @@ execute positioned -26 0 54 positioned over motion_blocking_no_leaves run fill ~
 execute positioned -26 0 54 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
 execute positioned -3 0 54 positioned over motion_blocking_no_leaves run fill ~ ~ ~ ~ ~1 ~ spruce_fence
 execute positioned -3 0 54 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
-execute positioned -4 0 32 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ spruce_sign[rotation=0]{front_text:{messages:['"Plot 5"','"unclaimed"','""','"edit to claim"']}}
 # Plot 6: x 3..26, z 31..54
 fill 3 ~-3 31 26 ~30 54 air replace #minecraft:logs
 fill 3 ~-3 31 26 ~30 54 air replace #minecraft:leaves
@@ -70,7 +65,6 @@ execute positioned 3 0 54 positioned over motion_blocking_no_leaves run fill ~ ~
 execute positioned 3 0 54 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
 execute positioned 26 0 54 positioned over motion_blocking_no_leaves run fill ~ ~ ~ ~ ~1 ~ spruce_fence
 execute positioned 26 0 54 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
-execute positioned 4 0 32 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ spruce_sign[rotation=0]{front_text:{messages:['"Plot 6"','"unclaimed"','""','"edit to claim"']}}
 # Plot 7: x -26..-3, z -54..-31
 fill -26 ~-3 -54 -3 ~30 -31 air replace #minecraft:logs
 fill -26 ~-3 -54 -3 ~30 -31 air replace #minecraft:leaves
@@ -82,7 +76,6 @@ execute positioned -26 0 -31 positioned over motion_blocking_no_leaves run fill 
 execute positioned -26 0 -31 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
 execute positioned -3 0 -31 positioned over motion_blocking_no_leaves run fill ~ ~ ~ ~ ~1 ~ spruce_fence
 execute positioned -3 0 -31 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
-execute positioned -4 0 -32 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ spruce_sign[rotation=0]{front_text:{messages:['"Plot 7"','"unclaimed"','""','"edit to claim"']}}
 # Plot 8: x 3..26, z -54..-31
 fill 3 ~-3 -54 26 ~30 -31 air replace #minecraft:logs
 fill 3 ~-3 -54 26 ~30 -31 air replace #minecraft:leaves
@@ -94,7 +87,6 @@ execute positioned 3 0 -31 positioned over motion_blocking_no_leaves run fill ~ 
 execute positioned 3 0 -31 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
 execute positioned 26 0 -31 positioned over motion_blocking_no_leaves run fill ~ ~ ~ ~ ~1 ~ spruce_fence
 execute positioned 26 0 -31 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ lantern
-execute positioned 4 0 -32 positioned over motion_blocking_no_leaves run setblock ~ ~ ~ spruce_sign[rotation=0]{front_text:{messages:['"Plot 8"','"unclaimed"','""','"edit to claim"']}}
 execute positioned 27 0 -1 positioned over motion_blocking_no_leaves run setblock ~ ~-1 ~ dirt_path
 execute positioned -27 0 -1 positioned over motion_blocking_no_leaves run setblock ~ ~-1 ~ dirt_path
 execute positioned -1 0 27 positioned over motion_blocking_no_leaves run setblock ~ ~-1 ~ dirt_path
