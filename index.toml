@@ -56,6 +56,11 @@ hash = "e5052e0fcba9af1e3c6c0734829b441bc5a23012108bf203ca01825ca12ff6b1"
 metafile = true
 
 [[files]]
+file = "mods/ct-overhaul-village.pw.toml"
+hash = "f12623242cecf391ba5433b21dccdbe465a895ab44bd8f311b5e8df8e7e8f4a7"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "08612b6318bc0d73c67557a3edf2d8999341eacd7f628fd249f267d1811a5f8b"
 metafile = true
@@ -98,6 +103,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "b0c37ca9826781a6bf1373ae02a141b4202037515eb071ec2327410771de6ea5"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "3c49abb807e720c647591d5608a00a2349e3b4522736cb094b36c0229781d1f1"
 metafile = true
 
 [[files]]
